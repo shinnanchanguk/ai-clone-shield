@@ -1,0 +1,35 @@
+{
+  "name": "ai-clone-shield",
+  "version": "0.1.0",
+  "description": "공개 배포된 웹 프로젝트를, 기능은 그대로 둔 채 AI/사람이 구조·로직을 통째로 베끼기 어렵게 다듬어주는 스킬팩. 워터마크·AI 고지·법적 증거·기능유지 검증을 한 진입점으로. 복제를 '불가능'하게 만들지 않고, 복제 비용을 높이고 추적·증거를 남긴다.",
+  "bin": {
+    "aishield": "bin/aishield.js"
+  },
+  "scripts": {
+    "detect": "node bin/aishield.js detect",
+    "selftest": "node verify/self-test.js"
+  },
+  "keywords": [
+    "anti-scraping",
+    "code-protection",
+    "watermark",
+    "obfuscation",
+    "copyright",
+    "ai-crawler",
+    "dmca"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "bin",
+    "core",
+    "layers",
+    "integrations",
+    "verify",
+    "templates",
+    "SKILL.md",
+    "README.md"
+  ]
+}
