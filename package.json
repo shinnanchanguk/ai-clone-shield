@@ -19,6 +19,15 @@
     "dmca"
   ],
   "license": "MIT",
+  "author": "shinnanchanguk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinnanchanguk/ai-clone-shield.git"
+  },
+  "homepage": "https://github.com/shinnanchanguk/ai-clone-shield#readme",
+  "bugs": {
+    "url": "https://github.com/shinnanchanguk/ai-clone-shield/issues"
+  },
   "engines": {
     "node": ">=16"
   },
@@ -26,10 +35,12 @@
     "bin",
     "core",
     "layers",
-    "integrations",
     "verify",
     "templates",
     "SKILL.md",
-    "README.md"
+    "README.md",
+    "README.ko.md",
+    "SETUP.md",
+    "ETHICS.md"
   ]
 }
