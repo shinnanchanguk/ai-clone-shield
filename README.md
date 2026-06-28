@@ -8,6 +8,8 @@ Run it once in your project folder and it hardens your build output: distributed
 
 Works across stacks: Next.js, Vite, CRA, static HTML, or any build output.
 
+> **Easiest way:** from your project folder, paste [this prompt](./USE-WITH-AI.md) to your AI coding tool (Claude Code, Cursor, etc.). It installs, checks, and applies everything for you. No commands to memorize.
+
 ---
 
 ## Why this exists
